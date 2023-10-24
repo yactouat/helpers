@@ -1,0 +1,17 @@
+{
+  "author": "Yacine Touati",
+  "description": "various helper scripts",
+  "license": "MIT",
+  "name": "helpers",
+  "version": "1.0.0",
+  "dependencies": {
+    "sharp": "^0.32.6"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "generate-chrome-extension-icons": "ts-node ./src/scripts/generate-chrome-extension-icons.ts"
+  }
+}
