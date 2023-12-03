@@ -12,6 +12,7 @@
     "ts-node": "^10.9.1"
   },
   "scripts": {
+    "create-favicon": "ts-node ./src/scripts/create-favicon.ts",
     "generate-chrome-extension-icons": "ts-node ./src/scripts/generate-chrome-extension-icons.ts"
   }
 }
